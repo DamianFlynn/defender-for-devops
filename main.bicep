@@ -12,6 +12,8 @@ var tags = {
   Tech: 'Bicep'
 }
 
+// Sample Rewource
+
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
   name: storageAccountName
   location: location
